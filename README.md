@@ -7,7 +7,3 @@
 
 Приложение конвертирует текст с семантическими аннотациями в аудио человеческой речи с помощью модели 
 [`suno/bark-small`](https://huggingface.co/suno/bark-small).
-
-Py File:
-
-Pictures:
