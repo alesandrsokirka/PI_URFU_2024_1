@@ -1,9 +1,37 @@
 # PI_URFU_2024_1
 
-# Используемые библиотеки
-[PyTorch](https://pytorch.org)
-[Transformers (HuggingFace)](https://huggingface.co)
-[Streamlit](https://streamlit.io)
+# Сокирка А.В.
 
-Приложение конвертирует текст с семантическими аннотациями в аудио человеческой речи с помощью модели 
-[`suno/bark-small`](https://huggingface.co/suno/bark-small).
+# Описание
+# Приложение конвертирует текст с семантическими аннотациями в аудио человеческой речи с помощью модели suno/bark-small.
+
+# Используемые библиотеки
+# PyTorch
+# Transformers (HuggingFace)
+# Streamlit
+
+# Функциональность
+# Ввод текста с семантическими аннотациями
+# Генерация аудио человеческой речи из текста
+# Воспроизведение сгенерированного аудио
+
+# Пример использования
+# Запустите приложение.
+# Введите текст в текстовое поле.
+# Нажмите кнопку "Произнести".
+П# риложение сгенерирует аудио и воспроизведет его.
+
+# Технические детали
+# Модель: suno/bark-small
+# Устройство: CUDA, CPU
+# Предварительная обработка текста: AutoProcessor.from_pretrained("suno/bark-small")
+# Генерация аудио: BarkModel.from_pretrained("suno/bark-small")
+
+# Дополнительные сведения
+# Модель suno/bark-small
+# PyTorch
+# Transformers (HuggingFace)
+# Streamlit
+
+# Лицензия
+# MIT
